@@ -1,0 +1,39 @@
+{
+	"version": "0.1.0",
+	"web_apps": [
+		{
+			"name": "Sberbank KZ",
+			"is_debug": false,
+			"url": "https://sberbank.kz",
+			"capability": {
+				"parameters": [
+					"color_mode",
+					"language"
+				],
+				"actions": [
+					"show_qr_scanner",
+					"show_sms_dialog",
+					"request_location",
+					"handle_deeplink"
+				]
+			}
+		},
+		{
+			"name": "GoogleKZ",
+			"url": "https://google.kz"
+		},
+		{
+			"name": "Apple",
+			"url": "https://apple.com"
+		},
+		{
+			"name": "Aster",
+			"url": "https://sbol.aster.kz"
+		},
+		{
+			"name": "AsterTest",
+			"is_debug": true,
+			"url": "https://test-sbol.asterx.kz"
+		}
+	]
+}
